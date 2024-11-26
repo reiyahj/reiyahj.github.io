@@ -54,11 +54,12 @@ p {
 .main_text {
     background-color: rgb(245, 247, 255);
     padding: 40px 70px 40px 40px; /* Clockwise from top */
-    margin: 20px 70px;
+    margin: 20px 70px 20px 70px;
     border-radius: 25px;
 }
 
 #imgtext {
+    min-width: 600px;
     width:50%;
     height:fit-content;
 }
@@ -67,6 +68,7 @@ p {
     width: 30%;
     min-width: 300px;
     max-width: 400px;
+    height:auto;
     margin: 0px 0px 30px 100px;
     border: 15px solid rgb(186, 197, 219);
     border-radius:75px;
