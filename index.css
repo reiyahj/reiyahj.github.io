@@ -15,7 +15,7 @@ body {
 
 .menu {
     color: rgb(34, 58, 101);
-    background-color: lightgrey;
+    background-color: none;
     padding: 50px;
     margin-bottom: 40px;
     text-align:center;
@@ -31,7 +31,7 @@ body {
     }
 
     a {
-        font-style:normal;
+        text-decoration: none;
     }
 }
 
@@ -53,13 +53,14 @@ p {
 
 .main_text {
     background-color: rgb(245, 247, 255);
-    padding: 40px 60px 40px 40px; /* Clockwise from top */
+    padding: 40px 70px 40px 40px; /* Clockwise from top */
     margin: 20px 70px;
+    border-radius: 25px;
 }
 
 #imgtext {
     width:50%;
-    border-radius: 25px;
+    height:fit-content;
 }
 
 .main_img {
